@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: "Catamaran", sans-serif;
+    font-size: 16px;
+}
+
+/* Universal CSS Start */
+.text-orange {
+    color: #EA512E;
+}
+
+.text-black {
+    color: #1B0238;
+}
+
+.text-silver {
+    color: #6B6B84;
+}
+
+.bg-orange {
+    background: #EA512E;
+}
+
+.bg-yellow {background: #f5890d !important;}
+
+.mt-10 {
+    margin-top: 100px;
+}
+
+.mt-15 {
+    margin-top: 150px;
+}
+
+.mt-20 {
+    margin-top: 200px;
+}
+
+/* .bg-light-yellow{background: #fee9ca;} */
+.btn {
+    color: #fff;
+    display: inline-block;
+    padding: 12px 35px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: 500;
+    transform: 0.5s ease;
+    position: relative;
+    background: #EA512E;
+}
+
+.btn:hover {
+    color: #fff;
+    background: #f5890d;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+    color: #6B6B84;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+
+/* /Universal CSS End */
+
+/* Banner Section Start */
+.banner {
+    width: 100%;
+    height: 700px;
+    background: url(../img/main-banner-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.shape-1 {
+    margin-top: 2%;
+    left: 0.7%;
+    animation: move 2s linear alternate infinite;
+}
+.shape-2 {
+    margin-top: 2%;
+    left: 50%;
+    animation: move2 2s linear alternate infinite;
+}
+.shape-3 {
+    margin-top: 32%;
+    left: 0.7%;
+    z-index: 9;
+    animation: move 2s linear alternate infinite;
+}
+.shape-4 {
+    margin-top: 40%;
+    left: 50%;
+    z-index: 9;
+    animation: move4 2s linear alternate infinite;
+}
+.banner h1{
+    color: #1B0238;
+    font-size: 60px;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Banner Section End */
+
+
+@keyframes move {
+    0% {}
+    100% {left: 3%;}
+}
+@keyframes move2 {
+    0% {}
+    100% {left: 53.5%;}
+}
+@keyframes move4 {
+    0% {}
+    100% {left: 53.5%;}
+}
